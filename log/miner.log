@@ -1,0 +1,111 @@
+2023-09-13 16:50:05,827 - INFO - Table 'miners_test' exists and has been deleted.
+2023-09-13 16:50:13,675 - INFO - Table 'miners_test' exists and has been deleted.
+2023-09-13 16:50:13,722 - INFO - Table 'miners_test' has been written successful.
+2023-09-13 16:56:49,595 - INFO - The miner json  write successfully!
+2023-09-13 17:05:18,088 - INFO - The miner json  write successfully!
+2023-09-13 17:17:47,411 - INFO - csv file has been successfully deleted!
+2023-09-13 17:17:47,411 - INFO - csv file has been successfully writen!
+2023-09-13 17:17:47,412 - INFO - csv file has been successfully writen!
+2023-09-13 17:17:47,412 - INFO - csv file has been successfully writen!
+2023-09-13 17:17:47,412 - INFO - csv file has been successfully writen!
+2023-09-13 17:17:47,413 - INFO - csv file has been successfully writen!
+2023-09-13 17:17:47,413 - INFO - csv file has been successfully writen!
+2023-09-13 17:17:47,414 - INFO - csv file has been successfully writen!
+2023-09-13 17:17:47,414 - INFO - csv file has been successfully writen!
+2023-09-13 17:17:47,415 - INFO - csv file has been successfully writen!
+2023-09-13 17:17:47,415 - INFO - csv file has been successfully writen!
+2023-09-13 17:23:55,308 - WARNING - Python-dotenv could not parse statement starting at line 14
+2023-09-13 17:23:55,331 - WARNING - Python-dotenv could not parse statement starting at line 14
+2023-09-13 17:23:55,337 - WARNING - Python-dotenv could not parse statement starting at line 14
+2023-09-13 17:26:17,274 - INFO - The miner json write successfully!
+2023-09-13 17:27:23,155 - INFO - csv file has been successfully deleted!
+2023-09-13 17:27:23,155 - INFO - csv file has been successfully writen!
+2023-09-13 17:27:23,156 - INFO - csv file has been successfully writen!
+2023-09-13 17:27:23,156 - INFO - csv file has been successfully writen!
+2023-09-13 17:27:23,157 - INFO - csv file has been successfully writen!
+2023-09-13 17:27:23,157 - INFO - csv file has been successfully writen!
+2023-09-13 17:27:23,158 - INFO - csv file has been successfully writen!
+2023-09-13 17:27:23,158 - INFO - csv file has been successfully writen!
+2023-09-13 17:27:23,159 - INFO - csv file has been successfully writen!
+2023-09-13 17:27:23,159 - INFO - csv file has been successfully writen!
+2023-09-13 17:27:23,160 - INFO - csv file has been successfully writen!
+2023-09-13 17:29:20,059 - INFO - Table 'miners_test' exists and has been deleted.
+2023-09-13 17:29:56,373 - INFO - Table 'miners_test' exists and has been deleted.
+2023-09-13 17:33:04,738 - INFO - Table 'miners_test' exists and has been deleted.
+2023-09-13 17:33:18,411 - INFO - Table 'miners_test' exists and has been deleted.
+2023-09-13 17:39:55,655 - INFO - The miner json write successfully!
+2023-09-13 17:39:55,662 - INFO - csv file has been successfully deleted!
+2023-09-13 17:39:55,662 - INFO - csv file has been successfully writen!
+2023-09-13 17:39:55,663 - INFO - csv file has been successfully writen!
+2023-09-13 17:39:55,663 - INFO - csv file has been successfully writen!
+2023-09-13 17:39:55,664 - INFO - csv file has been successfully writen!
+2023-09-13 17:39:55,664 - INFO - csv file has been successfully writen!
+2023-09-13 17:39:55,665 - INFO - csv file has been successfully writen!
+2023-09-13 17:39:55,665 - INFO - csv file has been successfully writen!
+2023-09-13 17:39:55,666 - INFO - csv file has been successfully writen!
+2023-09-13 17:39:55,666 - INFO - csv file has been successfully writen!
+2023-09-13 17:39:55,667 - INFO - csv file has been successfully writen!
+2023-09-13 17:39:55,829 - INFO - Table 'miners_test' exists and has been deleted.
+2023-09-13 17:42:07,495 - INFO - Table 'miners_test' exists and has been deleted.
+2023-09-13 17:44:44,089 - INFO - Table 'miners_test' exists and has been deleted.
+2023-09-13 17:44:54,033 - INFO - Table 'miners_test' exists and has been deleted.
+2023-09-13 17:45:19,799 - INFO - Table 'miners_test' exists and has been deleted.
+2023-09-13 18:34:13,394 - INFO - Table 'miners_test' exists and has been deleted.
+2023-09-13 18:35:21,591 - INFO - Table 'miners_test' exists and has been deleted.
+2023-09-13 18:36:26,419 - INFO - Table 'miners_test' exists and has been deleted.
+2023-09-13 18:39:58,033 - INFO - Table 'miners_test' exists and has been deleted.
+2023-09-13 18:41:46,298 - INFO - Table 'miners_test' exists and has been deleted.
+2023-09-13 18:41:46,456 - INFO -  Table 'miners_test' has been writen successful.
+2023-09-13 18:42:47,254 - INFO - csv file has been successfully deleted!
+2023-09-13 18:44:09,882 - INFO - csv file does not exist.
+2023-09-13 18:47:18,875 - INFO - csv file does not exist.
+2023-09-13 18:47:49,150 - INFO - csv file has been successfully writen!
+2023-09-13 18:47:49,859 - INFO - csv file has been successfully writen!
+2023-09-13 18:47:51,281 - INFO - csv file has been successfully writen!
+2023-09-13 18:47:52,200 - INFO - csv file has been successfully writen!
+2023-09-13 18:47:53,022 - INFO - csv file has been successfully writen!
+2023-09-13 18:47:53,689 - INFO - csv file has been successfully writen!
+2023-09-13 18:47:54,195 - INFO - csv file has been successfully writen!
+2023-09-13 18:47:54,696 - INFO - csv file has been successfully writen!
+2023-09-13 18:47:55,309 - INFO - csv file has been successfully writen!
+2023-09-13 18:47:55,787 - INFO - csv file has been successfully writen!
+2023-09-13 18:49:52,813 - INFO - csv file has been successfully deleted!
+2023-09-13 18:50:11,095 - INFO - csv file does not exist.
+2023-09-13 18:51:27,482 - INFO - csv file does not exist.
+2023-09-13 18:51:58,650 - INFO - csv file has been successfully writen!
+2023-09-13 18:52:02,515 - INFO - csv file has been successfully writen!
+2023-09-13 18:52:04,507 - INFO - csv file has been successfully writen!
+2023-09-13 18:52:06,276 - INFO - csv file has been successfully writen!
+2023-09-13 18:52:07,998 - INFO - csv file has been successfully writen!
+2023-09-13 18:52:07,999 - INFO - csv file has been successfully writen!
+2023-09-13 18:52:07,999 - INFO - csv file has been successfully writen!
+2023-09-13 18:52:08,000 - INFO - csv file has been successfully writen!
+2023-09-13 18:52:08,000 - INFO - csv file has been successfully writen!
+2023-09-13 18:52:08,000 - INFO - csv file has been successfully writen!
+2023-09-13 18:54:09,407 - INFO - The miner json write successfully!
+2023-09-13 18:54:09,413 - INFO - csv file has been successfully deleted!
+2023-09-13 18:54:09,413 - INFO - csv file has been successfully writen!
+2023-09-13 18:54:09,414 - INFO - csv file has been successfully writen!
+2023-09-13 18:54:09,414 - INFO - csv file has been successfully writen!
+2023-09-13 18:54:09,415 - INFO - csv file has been successfully writen!
+2023-09-13 18:54:09,415 - INFO - csv file has been successfully writen!
+2023-09-13 18:54:09,415 - INFO - csv file has been successfully writen!
+2023-09-13 18:54:09,415 - INFO - csv file has been successfully writen!
+2023-09-13 18:54:09,416 - INFO - csv file has been successfully writen!
+2023-09-13 18:54:09,416 - INFO - csv file has been successfully writen!
+2023-09-13 18:54:09,417 - INFO - csv file has been successfully writen!
+2023-09-13 18:54:09,561 - INFO - Table 'miners_test' exists and has been deleted.
+2023-09-13 18:54:09,697 - INFO - Table 'miners_test' has been writen successful.
+2023-09-13 18:58:50,604 - INFO - The miner json from https://api.filrep.io/api/miners read successfully!
+2023-09-13 18:58:50,612 - INFO - csv file has been successfully deleted!
+2023-09-13 18:58:50,615 - INFO - csv file has been successfully writen!
+2023-09-13 18:58:50,841 - INFO - Table 'miners_test' exists and has been deleted.
+2023-09-13 18:58:50,977 - INFO - Table 'miners_test' has been writen successful.
+2023-09-13 19:23:58,182 - INFO - The miner json read from https://api.filrep.io/api/miners?limit=6176 successfully!
+2023-09-13 19:23:58,268 - INFO - csv file has been successfully deleted!
+2023-09-13 19:23:59,625 - INFO - csv file has been successfully writen to ./data/miners.csv!
+2023-09-13 19:23:59,762 - INFO - Table 'miners_test' exists and has been deleted.
+2023-09-13 19:25:05,405 - INFO -  Table 'miners_test' has been writen successful.
+2023-09-13 19:28:00,545 - INFO - Table 'miners_test' exists and has been deleted.
+2023-09-13 19:29:24,246 - INFO - Table 'miners_test' exists and has been deleted.
+2023-09-13 19:30:36,397 - INFO - Table 'miners_test' has been writen successful.
