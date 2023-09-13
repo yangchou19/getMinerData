@@ -10,8 +10,5 @@ COPY . /app
 # 安装依赖包
 RUN pip install -r requirements.txt
 
-# 暴露容器的端口
-EXPOSE 5000
-
 # 运行应用程序
 CMD ["python", "app.py"]

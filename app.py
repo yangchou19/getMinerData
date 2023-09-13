@@ -21,11 +21,13 @@ if __name__ == '__main__':
     # 定义需要保留的键名列表
     keep_keys = ["address", "reachability", "verifiedPrice", "minPieceSize", "maxPieceSize", "rawPower", "isoCode",
                  "region", "score", "freeSpace", "averagePrice", "rank"]
-    get_miner_data(url, miner_json, miner_csv, keep_keys)
+    logger.info("start sending request!")
+
+    # get_miner_data(url, miner_json, miner_csv, keep_keys)
 
     # # 定义每天发送请求的任务
     schedule.every().day.at("19:00").do(get_miner_data)
-    # # 循环执行任务
+    # 循环执行任务
     while True:
         logger.info("start sending request!")
         schedule.run_pending()
