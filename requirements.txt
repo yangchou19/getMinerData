@@ -2,3 +2,4 @@ mysql~=0.0.3
 mysql-connector-python~=8.1.0
 python-dotenv~=1.0.0
 schedule~=1.2.0
+paramiko ~=3.3.1

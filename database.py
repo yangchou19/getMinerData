@@ -129,11 +129,11 @@ def write_to_database_by_csv_pingminers(csv_file):
     # 创建数据表（如果不存在）
     cursor.execute(f'''CREATE TABLE IF NOT EXISTS {table_name} (
                         address TEXT,
-                        minPieceSize, TEXT,
+                        minPieceSize TEXT,
                         maxPieceSize TEXT,
                         Price TEXT,
                         VerifiedPrice TEXT,
-                        Ping TEXT, 
+                        Ping TEXT 
                     )''')
 
     # 插入数据
@@ -145,6 +145,10 @@ def write_to_database_by_csv_pingminers(csv_file):
         csv_data = csv.reader(file)
         count = 0
         for row in csv_data:
+            row = row[:-1]
+            if count == 0:
+                row = row[6:]
+                row[0] = row[0][9:]
             cursor.execute(sql, row)
             count +=1
         print(count)

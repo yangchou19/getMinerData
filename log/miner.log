@@ -168,3 +168,115 @@
 2023-09-13 21:51:19,804 - INFO - start sending request!
 2023-09-13 21:52:50,689 - INFO - start sending request!
 2023-09-13 21:53:00,792 - DEBUG - Running job Job(interval=1, unit=days, do=hello, args=('test',), kwargs={})
+2023-09-20 16:40:52,864 - DEBUG - starting thread (client mode): 0xeb53b8e0
+2023-09-20 16:40:52,874 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-09-20 16:40:53,000 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.4
+2023-09-20 16:40:53,001 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-09-20 16:40:53,093 - DEBUG - === Key exchange possibilities ===
+2023-09-20 16:40:53,093 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2023-09-20 16:40:53,093 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-09-20 16:40:53,093 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-09-20 16:40:53,093 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-09-20 16:40:53,093 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-09-20 16:40:53,093 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-09-20 16:40:53,094 - DEBUG - client compress: none, zlib@openssh.com
+2023-09-20 16:40:53,094 - DEBUG - server compress: none, zlib@openssh.com
+2023-09-20 16:40:53,094 - DEBUG - client lang: <none>
+2023-09-20 16:40:53,094 - DEBUG - server lang: <none>
+2023-09-20 16:40:53,094 - DEBUG - kex follows: False
+2023-09-20 16:40:53,094 - DEBUG - === Key exchange agreements ===
+2023-09-20 16:40:53,094 - DEBUG - Kex: curve25519-sha256@libssh.org
+2023-09-20 16:40:53,094 - DEBUG - HostKey: ssh-ed25519
+2023-09-20 16:40:53,094 - DEBUG - Cipher: aes128-ctr
+2023-09-20 16:40:53,094 - DEBUG - MAC: hmac-sha2-256
+2023-09-20 16:40:53,094 - DEBUG - Compression: none
+2023-09-20 16:40:53,094 - DEBUG - === End of kex handshake ===
+2023-09-20 16:40:53,197 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-09-20 16:40:53,197 - DEBUG - Switch to new keys ...
+2023-09-20 16:40:53,197 - DEBUG - Adding ssh-ed25519 host key for 159.138.88.235: b'c035fc0594889cbd4ecb0b80e46bd737'
+2023-09-20 16:40:53,198 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com'}
+2023-09-20 16:40:53,210 - DEBUG - Trying discovered key b'9d17127d564512083b03ad66bbb11e41' in C:\Users\Administrator/.ssh/id_ed25519
+2023-09-20 16:40:53,424 - DEBUG - userauth is OK
+2023-09-20 16:40:53,536 - INFO - Authentication (publickey) failed.
+2023-09-20 16:40:53,628 - DEBUG - userauth is OK
+2023-09-20 16:40:53,732 - INFO - Authentication (password) successful!
+2023-09-20 16:40:53,732 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2023-09-20 16:40:54,540 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2023-09-20 16:40:54,541 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2023-09-20 16:40:54,675 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2023-09-20 16:40:54,675 - DEBUG - Secsh channel 0 opened.
+2023-09-20 16:40:54,767 - DEBUG - [chan 0] Sesch channel 0 request ok
+2023-09-20 16:40:54,859 - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-09-20 16:40:54,860 - DEBUG - [chan 0] stat(b'/mnt/data/filecoin/miner.csv')
+2023-09-20 16:40:54,950 - DEBUG - [chan 0] open(b'/mnt/data/filecoin/miner.csv', 'rb')
+2023-09-20 16:40:55,100 - DEBUG - [chan 0] open(b'/mnt/data/filecoin/miner.csv', 'rb') -> 00000000
+2023-09-20 16:40:55,380 - DEBUG - [chan 0] close(00000000)
+2023-09-20 16:40:55,473 - INFO - [chan 0] sftp session closed.
+2023-09-20 16:40:55,473 - DEBUG - [chan 0] EOF sent (0)
+2023-09-20 16:40:55,474 - DEBUG - EOF in transport thread
+2023-09-20 16:42:40,913 - INFO - Table 'pingminers' exists and has been deleted.
+2023-09-20 16:43:40,735 - INFO - Table 'pingminers' exists and has been deleted.
+2023-09-20 16:44:14,772 - INFO - Table 'pingminers' exists and has been deleted.
+2023-09-20 16:44:49,393 - INFO - Table 'pingminers' exists and has been deleted.
+2023-09-20 16:47:36,524 - INFO - Table 'pingminers' exists and has been deleted.
+2023-09-20 16:48:54,032 - INFO - Table 'pingminers' exists and has been deleted.
+2023-09-20 16:50:17,207 - INFO - Table 'pingminers' exists and has been deleted.
+2023-09-20 16:51:37,611 - INFO - Table 'pingminers' exists and has been deleted.
+2023-09-20 16:52:25,626 - INFO - Table 'pingminers' exists and has been deleted.
+2023-09-20 16:52:28,682 - INFO - Table 'pingminers' has been writen successful.
+2023-09-20 16:56:25,233 - INFO - start sending request!
+2023-09-20 16:56:25,233 - INFO - start sending request!
+2023-09-20 16:56:25,330 - DEBUG - starting thread (client mode): 0x3f0b5d90
+2023-09-20 16:56:25,330 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-09-20 16:56:25,446 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.4
+2023-09-20 16:56:25,446 - INFO - Connected (version 2.0, client OpenSSH_8.2p1)
+2023-09-20 16:56:25,541 - DEBUG - === Key exchange possibilities ===
+2023-09-20 16:56:25,541 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2023-09-20 16:56:25,541 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-09-20 16:56:25,541 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-09-20 16:56:25,541 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-09-20 16:56:25,542 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-09-20 16:56:25,542 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-09-20 16:56:25,542 - DEBUG - client compress: none, zlib@openssh.com
+2023-09-20 16:56:25,542 - DEBUG - server compress: none, zlib@openssh.com
+2023-09-20 16:56:25,542 - DEBUG - client lang: <none>
+2023-09-20 16:56:25,542 - DEBUG - server lang: <none>
+2023-09-20 16:56:25,542 - DEBUG - kex follows: False
+2023-09-20 16:56:25,542 - DEBUG - === Key exchange agreements ===
+2023-09-20 16:56:25,542 - DEBUG - Kex: curve25519-sha256@libssh.org
+2023-09-20 16:56:25,542 - DEBUG - HostKey: ssh-ed25519
+2023-09-20 16:56:25,542 - DEBUG - Cipher: aes128-ctr
+2023-09-20 16:56:25,542 - DEBUG - MAC: hmac-sha2-256
+2023-09-20 16:56:25,542 - DEBUG - Compression: none
+2023-09-20 16:56:25,542 - DEBUG - === End of kex handshake ===
+2023-09-20 16:56:25,646 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-09-20 16:56:25,646 - DEBUG - Switch to new keys ...
+2023-09-20 16:56:25,646 - DEBUG - Adding ssh-ed25519 host key for 159.138.88.235: b'c035fc0594889cbd4ecb0b80e46bd737'
+2023-09-20 16:56:25,646 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com'}
+2023-09-20 16:56:25,656 - DEBUG - Trying discovered key b'9d17127d564512083b03ad66bbb11e41' in C:\Users\Administrator/.ssh/id_ed25519
+2023-09-20 16:56:25,833 - DEBUG - userauth is OK
+2023-09-20 16:56:25,952 - INFO - Authentication (publickey) failed.
+2023-09-20 16:56:26,052 - DEBUG - userauth is OK
+2023-09-20 16:56:26,157 - INFO - Authentication (password) successful!
+2023-09-20 16:56:26,157 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2023-09-20 16:56:27,037 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2023-09-20 16:56:27,037 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2023-09-20 16:56:27,176 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2023-09-20 16:56:27,176 - DEBUG - Secsh channel 0 opened.
+2023-09-20 16:56:27,272 - DEBUG - [chan 0] Sesch channel 0 request ok
+2023-09-20 16:56:27,365 - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-09-20 16:56:27,365 - DEBUG - [chan 0] stat(b'/mnt/data/filecoin/miner.csv')
+2023-09-20 16:56:27,461 - DEBUG - [chan 0] open(b'/mnt/data/filecoin/miner.csv', 'rb')
+2023-09-20 16:56:27,556 - DEBUG - [chan 0] open(b'/mnt/data/filecoin/miner.csv', 'rb') -> 00000000
+2023-09-20 16:56:27,843 - DEBUG - [chan 0] close(00000000)
+2023-09-20 16:56:27,937 - INFO - [chan 0] sftp session closed.
+2023-09-20 16:56:27,937 - DEBUG - [chan 0] EOF sent (0)
+2023-09-20 16:56:27,937 - DEBUG - EOF in transport thread
+2023-09-20 16:56:28,084 - INFO - Table 'pingminers' exists and has been deleted.
+2023-09-20 16:56:30,562 - INFO - Table 'pingminers' has been writen successful.
+2023-09-20 17:00:10,666 - INFO - start sending request!
+2023-09-20 17:00:10,667 - INFO - start sending request!
+2023-09-20 17:01:20,776 - INFO - start sending request!
+2023-09-20 17:01:20,776 - INFO - start sending request!
+2023-09-20 17:02:02,445 - INFO - start sending request!
+2023-09-20 17:02:02,445 - INFO - start sending request!
