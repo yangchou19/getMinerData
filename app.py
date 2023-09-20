@@ -57,10 +57,10 @@ get_miner_data(url, miner_json, miner_csv, keep_keys)
 
 
 # 定义每天发送请求的任务
-# schedule.every().day.at("19:00").do(get_miner_data, url, miner_json, miner_csv, keep_keys)
+schedule.every().day.at("19:00").do(get_miner_data, url, miner_json, miner_csv, keep_keys)
 
 
-# # 循环执行任务
-# while True:
-#     schedule.run_pending()
-#     time.sleep(1)
+# 循环执行任务
+while True:
+    schedule.run_pending()
+    time.sleep(1)
